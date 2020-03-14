@@ -17,7 +17,7 @@ namespace AeroLinea_Futuro.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Esta aplicacion fue creada por:";
 
             return View();
         }

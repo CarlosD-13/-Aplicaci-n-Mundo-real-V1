@@ -42,6 +42,8 @@ namespace AeroLinea_Futuro
             services.AddDbContext<EmpleadoContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
 
+            services.AddDbContext<ClientesContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
